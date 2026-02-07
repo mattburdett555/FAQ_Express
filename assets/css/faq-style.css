@@ -1,0 +1,37 @@
+.faq-list {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding-right: 20px;
+}
+
+/* Add plus/minus indicator */
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+
+/* Change indicator when open */
+.faq-item[open] .faq-question::after {
+    content: '-';
+}
+
+.faq-answer {
+    padding: 5px 0 0 0;
+}
