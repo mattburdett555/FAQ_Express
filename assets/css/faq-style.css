@@ -18,7 +18,6 @@
     padding-right: 20px;
 }
 
-/* Add plus/minus indicator */
 .faq-question::after {
     content: '+';
     position: absolute;
@@ -27,7 +26,6 @@
     transition: transform 0.2s;
 }
 
-/* Change indicator when open */
 .faq-item[open] .faq-question::after {
     content: '-';
 }
