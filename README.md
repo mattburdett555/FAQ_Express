@@ -12,5 +12,5 @@ Using this plugin:
 - Show the shortcode wherever you wish.
 
 Customising the output:
-- The questions and answers are displayed in <details> <summary> blocks.
+- The questions and answers are displayed in details summary  blocks.
 - You can customise the output by either appling css to the wrapper class .faq-list, or by adding your own ID or classes as arguments to the shortcode, for example: [faq id="5" html_id="faq-section" html_name="faq-block" html_class="custom-faq"]
